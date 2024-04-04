@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.menu-bar{
+    height: 20px;
+    padding-right: 150px;
+}
+nav {
+  align-items: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    background-color: #fc7474;
+    font-weight: bold;
+    padding-left: 150px;
+    
+}
+li{
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+
+.content{
+    width: 100vw;
+   
+}
+.lorem{
+     width: 50vw;
+    height: 100vh;
+    background: linear-gradient(to right,#fff6af,#ffd1d1);
+     float: left;
+}
+.image1{
+   width: 50vw; 
+   height: 100vh;
+}
+
+.lipsum{
+padding: 80px;
+}
+.lipsum h1{
+    
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 10px;
+   font-weight: 700;
+   margin-bottom: 50px;
+   font-size: 39.4px;
+
+}
+
+
+.lipsum button{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin-top: 50px;
+    background-color: #fc7474;
+    color: white;
+
+}
+
+
+
+
+   /* Tablet */
+@media only screen and (min-width:768px) and (max-width:1023px){
+    
+     .lorem{
+        width: 100% !important;
+        display: block;
+        height: 70vh;
+     }
+     .image1{
+        width:100% !important;
+        display: block;
+        height: 70vh;
+     }
+     .lipsum h1{
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: 5px;
+     }
+     .fifty{
+        display: block !important;
+        text-align: center !important;
+        
+     }
+     .colour{
+        display: block !important;
+       
+     }
+     .size{
+        display: block !important;
+     }
+     .imgg1{
+        width:100% !important;
+       
+        padding: 20px;
+        display: block !important;
+       
+        margin-top: -50px;
+     }
+     .imgg2{
+        width:100% !important ;
+        display: block !important;
+        
+       
+     }
+     .imgg3{
+        width:100% !important ;
+        height:80px ;
+        
+     
+     }
+     .box{
+  
+       width: 100% !important;
+       
+       margin-top: 10px !important;
+     }
+     .box h1{
+        font-size: 20px !important;
+        font-weight: 600 !important;
+        margin-top: 60px !important;
+        letter-spacing: 2px !important;
+     }
+     .box strong{
+        font-size: 30px !important;
+     }
+     .nav  li{
+        display: none !important;
+        width: 100% !important;
+        padding-left: -150px !important;
+        margin: 0;
+     }
+
+     /* Navbar */
+.sizes{
+   display: block !important;
+   visibility: hidden !important;
+}
+.padd 
+{
+   padding-bottom: 10px !important;
+   padding-top: 10px !important;
+}
+.navbar 
+{
+   width: 100% !important;
+   display: block !important;
+   text-align: center !important;
+   border: 1px solid white;
+}
+
+.h20 {height: 20px !important;}
+
+.StackMob {width: 100% !important;display: block !important;}
+
+.wrap100 {width: 100% !important;}
+.img-res {width: 100% !important;height: auto !important;}
+.padtop50 {padding: 50px 0px 0px 0px !important;}
+.w260 {width: 260px !important;height: 60px !important;}
+.padtop10-l15 {padding: 10px 0px 0px 15px !important;}
+
+     
+    
+   
+  
+}
+/* Mobile */
+@media only screen and (max-width:767px) {
+    
+     .lorem{
+        width: 100% !important;
+        display: block;
+        height: 70vh;
+     }
+     .image1{
+        width:100% !important;
+        display: block;
+        height: 70vh;
+     }
+     .lipsum h1{
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: 5px;
+     }
+     .fifty{
+        display: block !important;
+        text-align: center !important;
+        
+     }
+     .colour{
+        display: block !important;
+       
+     }
+     .size{
+        display: block !important;
+     }
+     .imgg1{
+        width:100% !important;
+       
+        padding: 20px;
+        display: block !important;
+       
+        margin-top: -50px;
+     }
+     .imgg2{
+        width:100% !important ;
+        display: block !important;
+        
+       
+     }
+     .imgg3{
+        width:100% !important ;
+        height:80px ;
+        
+     
+     }
+     .box{
+  
+       width: 100% !important;
+       
+       margin-top: 10px !important;
+     }
+     .box h1{
+        font-size: 20px !important;
+        font-weight: 600 !important;
+        margin-top: 60px !important;
+        letter-spacing: 2px !important;
+     }
+     .box strong{
+        font-size: 30px !important;
+     }
+     .nav  li{
+        display: none !important;
+        width: 100% !important;
+        padding-left: -150px !important;
+        margin: 0;
+     }
+
+     /* Navbar */
+.sizes{
+   display: block !important;
+   visibility: hidden !important;
+}
+.padd 
+{
+   padding-bottom: 10px !important;
+   padding-top: 10px !important;
+}
+.navbar 
+{
+   width: 100% !important;
+   display: block !important;
+   text-align: center !important;
+   border: 1px solid white;
+}
+
+.h20 {height: 20px !important;}
+
+.StackMob {width: 100% !important;display: block !important;}
+
+.wrap100
+ {
+   width: 100% !important;
+}
+.img-res {
+   width: 100% !important;
+   height: auto !important;}
+.padtop50 {
+   padding: 50px 0px 0px 0px !important;
+}
+.w260 {
+   width: 260px !important;height: 60px !important;
+}
+.padtop10-l15 {
+   padding: 10px 0px 0px 15px !important;
+}
+
+     
+    
+     
+     
+
+  
+     
+    
+  
+   
+   
+   
+}
+
+@media only screen and (min-width:1440px){
+
+   
+    
+}
+
+@media only screen and (min-width:1024px) and (max-width:1439px){
+   
+ 
+}
+
+
+
+/* Page2 */
+
+.colour{
+   
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+}
+.fifty{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.box{
+    height: 280px;
+    width: 40%;
+   background-color: #fc7474;
+    margin-top: 165px;
+    
+  
+}
+.box h1{
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-left: 40px;
+    
+    
+    
+}
+.box strong{
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 700;
+  
+}
+.pos{
+   margin-right: 100px;
+   
+
+}
+.size{
+    width: 100vw;
+    display: flex;
+}
+
+.padd 
+{
+   padding-bottom: 15px !important;
+   padding-top: 15px !important;
+}
+.paddd{
+   align-items: center;
+}
+
+
+
+
+
+
+
+ 
